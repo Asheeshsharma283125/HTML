@@ -52,9 +52,42 @@
 		Gender: <input type="radio" name="r" checked>Male<br>
 						<input type='radio' name='r1'>Female<br>
 		Language: <input type="checkbox" name="r">English<br>
-							<input type="checkbox" name="r1">Hindi<br>
+			<input type="checkbox" name="r1">Hindi<br>
 		Address: <textarea></textarea><br>
 						<input type="submit" value="Submit">
 						<input type="reset">
 	</body>
 </html>
+//lecture8
+<html>
+	<body>
+		<center><embed src="my.mp4" alt="Error" width=100 height=100></center>   //old tag
+		<video src="my.mp4" width=100 height=100 alt="Error" controls="controls" autoplay="autoplay" loop=3>     //new tag
+		<audio src="my.mp3" autoplay controls>
+		<bgsound src="my.mp3">
+	</body>
+</html>
+//Lecture10
+<html>
+	<body>
+		a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup><br>
+		log<sub>10</sub>+log<sub>10</sub>=1<br>
+		hello&nbsp;&nbsp;&nbsp;&nbsp;World
+		<&lt>
+			<&gt; &quot; &apos; &reg; a&laar;b
+			      &uarr; &darr; &Delta; &Gamma;
+			      </body>
+			</html>
+//lecture11
+<html>
+        <body>
+                <form>
+                select color<input type="color"><br>
+                select date<input type="date"><br>
+                select number<input type="number" min=1 max=10 step=1><br>
+                Username: <input type="text"><br>
+                Select Email<input type="email">
+                URL<input type="URL">
+                </form>
+        </body>
+                </html>
