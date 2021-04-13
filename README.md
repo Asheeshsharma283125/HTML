@@ -323,3 +323,278 @@ Sorry for waiting</i></b>
 </html>
 
 //lecture26
+<html>
+    <head>
+        <style>
+            p{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Inline CSS</p>
+        <p style="background-color:green">html</p>
+	</body></html>
+
+
+//lecture27
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS27.css">
+
+    </head>
+    <body>
+<p> this is my book</p>
+<h1>this is heading</h1>
+    </body>
+</html>
+
+//lecture28
+<html>
+    <head>
+        <style>
+            p{
+                background-color: green;
+                color: pink;
+            }
+            #heading1{
+                color:blueviolet;
+            }
+            #para1{
+                text-align:center;
+                color:pink;
+                background:red;
+            }
+        </style>
+    </head>
+
+<body>
+<p>
+    hello
+</p>
+<h1 id="Heading1"></h1>
+<p id="para1">asheesh sharma</p>
+</body>
+</html>
+
+//lecture29
+<html>
+    <head>
+        <style>
+            .cen{
+                background-color:red;
+                
+                text-align:center;
+
+            }
+            .style{
+                color:pink;
+            }
+
+            </style>
+    </head>
+    <body> 
+        <p class="cen">helllo world</p>
+        <p class="cen">Asheesh</p>
+        <h1 class="cen style" >Ashu</h1>
+        <h4 class="cen" >Ashu</h4>
+        <h2 class="cen">Rahul</h2>
+        <h3 class="cen style" >TELL ME ABOUT YOURSELF</h4>
+            
+    </body>
+</html>
+
+//lecture30
+<html>
+    <head>
+        <style>
+                p,h1,h2{
+                    color:red;
+                    background-color:blue;
+                    text-align:center;
+                }
+                #h1,#h2,#h3{
+                    color:red;
+                    background-color:blue;
+                    text-align:center;
+                }
+
+                h1{
+                    color:red;
+                }
+                h2{
+                    color:red;
+                }
+        </style>
+    </head>
+
+    <body>
+        <p>HTML Program</p>
+        <h1>
+            India
+        </h1>
+        <h2>Gujarat</h2>
+    </body>
+
+</html>
+
+//lecture31
+<html>
+    <head>
+        <style>
+            div{
+                width:175px;
+                height:20px;
+                background-color: lightblue;
+                border-radius:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border=1>
+            <tr>
+                <td> 
+                    <div><input list="my">
+                        <datalist id=my>
+                            <option value="Heloo">
+                                Computer<br> 
+                                <option value=Asheesh>
+                                    IT Sector<br>
+                </div>
+
+
+                </td>
+                <td> <div>
+                    
+                        Computer<br>
+                        
+        
+                   
+                    
+                </div>
+
+                </td>
+            </tr>
+        </table>
+       
+        </body>
+</html>
+
+
+//lecture32
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("image2.jpg");
+                background-repeat: no-repeat;  //repeat-x
+                background-position: right top;
+                background-attachment:fixed;
+                background-color: lightgreen;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+    </body>
+</html>
+
+//lecture33
+<html>
+    <head>
+        <style>
+            body{
+                background-image:repeating-linear-gradient(to right, red 20%,green 30%);
+                background-image:repeating-radial-gradient(circle, red 20%,green 30%);
+                background-image:repeating-linear-gradient(70deg,blue, red 20%,green 30%);
+            }
+        </style>
+    </head>
+    <body>
+
+    </body>
+</html>
+//lecture34
+<html>
+    <heaad>
+        <style>
+            p.p1{
+                border-style:solid;
+                border-color:red blue yellow pink;
+                border-width:2px 10px 5px 25px;
+            }
+            p.p2{
+                border-top-style:outset;
+                border-bottom-style:solid;
+                border-right-style:solid;
+                border-left-style:outset;
+
+            }
+            p.p3{
+                border-style:dashed ;
+            }
+            p.p4{
+                border-style:double ;
+            }
+            p.p5{
+                border-style:groove ;
+            }
+            p.p6{
+                border-style:ridge ;
+            }
+            p.p7{
+               
+                border-right: solid 6px red ;
+
+            }
+            p.p8{
+                border-style:outset ;
+            }
+        </style>
+</heaad>
+    <body>
+<p class='p1'>Html and css in hindi</p>
+<p class='p2'>Html and css in hindi</p>
+<p class='p3'>Html and css in hindi</p>
+<p class='p4'>Html and css in hindi</p>
+<p class='p5'>Html and css in hindi</p>
+<p class='p6'>Html and css in hindi</p>
+<p class='p7'>Html and css in hindi</p>
+<p class='p8'>Html and css in hindi</p>
+    </body>
+
+</html>
+
+//lecture35
+<html>
+    <head>
+        <style>
+            div{
+                width:200px;
+                height:100px;
+                border:5px outset ;
+                background-color:lightblue;
+                margin:30px 90px 79px 40px;
+                padding:50px
+            }
+            input{
+                margin:3px;
+                padding:5px;
+            }
+            </style>
+
+    </head>
+    <body>
+<div><b>
+    Username:<input type="text"><br>
+    Password:<input type="password"><br>
+    <input type="submit" value=Login></b>
+    
+</div>
+    </body>
+</html>
+
+//lecture36
+
