@@ -597,4 +597,206 @@ Sorry for waiting</i></b>
 </html>
 
 //lecture36
+<html>
+<head>
+    <style>
+        P{
+            color:red;
+            text-transform:uppercase;  
+            text-indent:50px;
+            text-decoration:none;
+            letter-spacing: 5px;
+            word-spacing:10px;
+            text-shadow:20px 7px black;
+             direction:ltl;
 
+        }
+    </style>
+</head>
+<body>
+<p>Html and css in hindi</p>
+</body>
+</html>
+
+//lecture37
+<html>
+    <head>
+        <style>
+            p{
+                font-family:arial;
+                font-style:italic;
+                font-size:2em; 
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+<p>Html and css in hindi</p>
+    </body>
+</html>
+
+//lecture38
+<html>
+    <head><style>
+        a{
+            
+            color:red;
+            border-style:outset;
+            border-radius:5px;
+           
+        }
+        a.visited{
+            color:black;
+        }
+        a.active{
+            color:chocolate;
+        }
+        a:hover{
+            color:white;
+            background-color:brown;
+            font-size:20px;
+        }
+        p{
+            text-align:center;
+            height:90px;
+            background-color:lightpink;
+        }
+    </style>
+    </head>
+    <body>
+<p>
+    <a href='lecture5.html'>Home</a><br><br>
+    <a href="lecture6.html">about</a><br><br>
+    <a href="lecture7.html">Contact us</a><br>
+</p>
+    </body>
+    </html>
+    
+//lecture39
+<html>
+    <head>
+        <style>
+            img{
+                width:100px;
+                height:100px;
+                opacity:0.6;
+                margin:15px;
+            }
+            img:hover{
+                width:150px;
+                height:130px;
+                opacity:1;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="image.jpg">
+        <img src="image.jpg">
+        <img src="image.jpg">
+        <img src="image.jpg">
+
+    </body>
+</html>
+
+//lecture40
+<html>
+    <head>
+        <style>
+            h1{ 
+                color:red;
+                text-shadow:2px 2px 5px blue;
+            }
+            div{
+                width:200px;
+                height:200px;
+                box-shadow:2px 2px 5px blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello World</h1><br>
+        <h1>Hello World</h1><br>
+        <h1>Hello World</h1><br>
+        <div>
+            Hello World
+        </div>
+    </body>
+</html>
+
+//lecture41
+<html>
+    <head>
+        <style>
+            .main_div{
+                width:100%;
+                height:200%;
+                background-color:rgba(128, 128, 128, 0.425);
+            } 
+            font{
+                color:hsla(210, 12%, 39%, 0.808);
+                text-shadow: 3px 3px 5px black;
+                //text-align:left;
+            }
+            .inner1{
+                width:1100px;
+                height:150px;
+                background-color:white;
+               margin:120px 120px 120px 120px;
+            }
+            .inner2{
+                width:1100px;
+                height:120px;
+                background-color:lightseagreen;
+                margin: 130px 120px 12px 120px;
+            }
+            .inner3{
+                width:1100px;
+                height:120px;
+                background-color:rgb(133, 30, 98);
+               
+            }
+        </style>
+    </head>
+    <body>
+       <div class="main_div"><br><br><br>
+          <div class="inner1"><font size="25" >
+            Asheesh sharma</font>
+           </div><div class="inner2">
+
+           </div><br><br><br><br><br><br><br><br><br><br>
+           <div class="inner3">
+
+           </div>
+        
+           
+       </div> 
+    </body>
+</html>
+
+
+//lecture42
+<html>
+    <head>
+        <style>
+            body{
+                counter-reset:section;
+            }
+            h2::before{
+                counter-increment:section;
+                content: counter(section)":";
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>CSS counter</h1>
+        <h2>introduction to HTML</h2>
+        <h2>body tag</h2>
+        <h2>div tag</h2>
+        <p>
+
+        </p>
+    </body>
+</html>
+//
